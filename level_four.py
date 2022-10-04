@@ -1,9 +1,12 @@
+from level_one import level_one
+from level_three import level_three
+
 print("Let's Play a Game!")
 choice = input(
-    "Would you like to choose a number for me to guess or try to guess my number? Enter 'a' for you to choose, enter 'b' for me to choose! "
+    "Hit 'a' for me to choose a number for you to guess, hit 'b' to choose a number for me to guess! "
 )
 
 if choice.lower() == "a":
-    import level_one
+    level_one()
 elif choice.lower() == "b":
-    import level_three
+    level_three()

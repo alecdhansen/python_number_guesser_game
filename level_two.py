@@ -23,6 +23,6 @@ while guesses < 3:
         print("My guess is too high!")
 
 if computer_guess == player_number:
-    print("You lose! I guessed your number!")
+    print("You lose! I guessed your number! It was", player_number)
 elif computer_guess != player_number:
     print("You win! Your number was", player_number)
